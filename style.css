@@ -1,0 +1,45 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  width: 45%;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px 0px #999;
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+#heading {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+#heading > h1 {
+  margin-bottom: 0px;
+}
+#heading > h4, h1 {
+  margin-top: 0px;
+}
+#form {
+  margin-bottom: 30px;
+}
+footer > p {
+  margin: 0px;
+}
+#results {
+  background-color: red;
+}
